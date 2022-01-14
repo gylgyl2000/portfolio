@@ -1,0 +1,172 @@
+.pageHeader {
+    height: 100vh;
+    max-height: 1050px;
+    max-height: 100% !important;
+    padding: 0;
+    color: #FFFFFF;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@media screen and (max-width:575px) {
+    .pageHeader {
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pageHeader {
+        height: 47vh;
+    }
+}
+
+.pageHeader::after, .pageHeader::before {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+}
+
+.pageHeaderImage {
+    position: absolute;
+    background-image: url(../assets/fond.JPEG);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition: filter 3.5s ease;
+}
+
+.container {
+    height: 100%;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+
+.welcomeSection {
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    color: #FFFFFF;
+    background-color: transparent;
+    margin-top: 96px;
+    padding: 18px;
+    width: 100%;
+    max-width: 80%;
+    z-index: -1;
+    -ms-transform: translate(-50.1%,-70.1%);
+    -webkit-transform: translate(-50.1%,-70.1%);
+    transform: translate(-50.1%,-70.1%);
+    animation: bottom-t-top 2s;
+    will-change: transform;
+}
+
+@media screen and (max-width:575px) {
+    .welcomeSection {
+        max-width: 100% !important;
+    }
+}
+
+@keyframes bottom-t-top {
+    0% {
+     transform:translate(-50%,200%)
+    }
+    100% {
+     transform:translate(-50.1%,-70.1%)
+    }
+}
+
+.welcomeHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    display: block;
+    width: 6rem;
+    border-radius: 200px;
+    margin-right: 3rem;
+}
+
+.alias, .subalias {
+    line-height: 1.15;
+    font-family: roboto;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.alias::before {
+    content: "# ";
+}
+
+.subalias::before {
+    content: ">ø ";
+}
+
+.subalias::after {
+    content: " ø<";
+}
+
+.alias::before, .subalias::before, .subalias::after {
+    color: rgb(68, 136, 60);
+    font-size: 1.7em;
+    vertical-align: sub;
+}
+
+.icone {
+    display: block;
+    width: 8rem;
+    margin-left: 3rem;
+}
+
+.suptitle {
+    line-height: 1.15;
+    font-family: roboto;
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.title {
+    line-height: 1.15;
+    font-family: roboto;
+    font-size: 6em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-shadow: 5px 4px 4px #0d5f4f;
+}
+
+.welcomeIcones {
+    text-align: center;
+}
+
+.welcomeIcones i {
+    font-size: 5em;
+    margin: 0 12px;
+}
+
+.subtitle {
+    line-height: 1.61em;
+    width: 80%;
+    position: relative;
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 15px auto;
+    background-color: rgb(68, 136, 60);
+    padding: 14px;
+    border-radius: 30px;
+}
+

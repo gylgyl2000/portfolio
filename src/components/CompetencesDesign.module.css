@@ -1,0 +1,78 @@
+
+.skill {
+    margin-bottom: 40px;
+}
+
+.center {
+    display: table;
+    width: 100%;
+}
+
+.design,
+.stars {
+    color: #2ECC71;
+}
+
+.cItem {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    padding: 25px 40px 0px;
+    font-size: 16px;
+    background-color: white;
+    line-height: 26px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.16);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.16);
+    width: 65%;
+}
+
+.design {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.desc {
+    margin-bottom: 20px;
+}
+
+
+.spaceBetween {
+    margin-bottom: 13px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.spaceBetween:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.el {
+    line-height: 30px;
+    width: 46%;
+}
+
+.names {
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 140px;
+    width: 27%;
+    text-align: center;
+}
