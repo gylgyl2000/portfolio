@@ -1,4 +1,4 @@
-import styles from '../components/ScrollButton.module.css';
+import '../components/ScrollButton/ScrollButton.css';
 
 window.onscroll = function() {resizeHeader()};
     function resizeHeader() {
@@ -8,11 +8,11 @@ window.onscroll = function() {resizeHeader()};
             document.querySelector(".welcome-section").style.animationName = "fadeIn";
             document.querySelector(".welcome-section").style.animationDuration = "1s";
             document.querySelector(".welcome-section").style.animationFillMode = "both, forwards, none";
-            document.querySelector("#back-to-top").className = styles.backtotop;
+            document.querySelector("#back-to-top").className = "";
         } else {
             document.querySelector(".nav").style.backgroundColor = "transparent";
             document.querySelector(".welcome-section").style.animationName = "bottom-t-top";
-            document.querySelector("#back-to-top").className = styles.backtotop + ' ' + styles.hidden;
+            document.querySelector("#back-to-top").className = "hidden";
         }
     }
 

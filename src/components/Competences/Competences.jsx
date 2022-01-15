@@ -1,14 +1,15 @@
 import React, { Component, } from "react";
 
-import Navbar from "./Navbar";
+import Navbar from "../Navbar/Navbar";
 import CompetencesBack from "./CompetencesBack";
 import CompetencesFront from './CompetencesFront';
 import CompetencesCMS from './CompetencesCMS';
 import CompetencesDesign from "./CompetencesDesign";
 import CompetencesEnv from "./CompetencesEnv";
-import ScrollButton from "./ScrollButton";
+import ScrollButton from "../ScrollButton/ScrollButton";
 
 import styles from './Competences.module.css';
+import '../../animate.css'
 
 export default class Competences extends Component {
     render() {

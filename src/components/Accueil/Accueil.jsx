@@ -1,16 +1,16 @@
 import React from 'react';
 
 import Particles from "react-tsparticles";
-import '../animate.css'
-import '../js/resizeHeader';
+import 'animate.css'
+import '../../js/resizeHeader';
 // import '../js/particles.js';
 
-import styles from './Home.module.css';
+import styles from './Accueil.module.css';
 
-import Navbar from './Navbar';
+import Navbar from '../Navbar/Navbar';
 import Welcome from './Welcome';
 
-function Home() {
+function Accueil() {
     const particlesInit = (main) => {
         console.log(main);
         // Tu peux initialiser l'instance tsParticles (principale) ici,
@@ -116,4 +116,4 @@ function Home() {
     );
   }
   
-  export default Home;
+  export default Accueil;

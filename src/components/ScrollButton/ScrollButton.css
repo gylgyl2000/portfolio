@@ -1,5 +1,5 @@
 
-.backtotop {
+#back-to-top {
     background: rgb(68, 136, 60);
     border-radius: 50%;
     bottom: 20px;
@@ -18,7 +18,7 @@
     z-index: 99;
 }
 
-.backtotop svg {
+#back-to-top svg {
     display: block;
     fill: currentColor;
     height: 24px;
@@ -26,8 +26,8 @@
     width: 24px;
 }
 
-.hidden {
-    bottom:-56px;
+#back-to-top.hidden {
+
     opacity:0
 }
 

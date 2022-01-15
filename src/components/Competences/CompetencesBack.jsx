@@ -30,23 +30,24 @@ export default class CompetencesBack extends Component {
                     <h4 className={styles.back}>Back-end</h4>
                     
                     <div className={styles.item + ' ' + styles.desc}>
-                        Développement de sites web et applications, création et gestion de bases de données, programmation orientée objet et modèle 3 tiers, mise en ligne.
+                        Développement de sites web et applications, création et gestion de bases de données, programmation orientée objet,
+                        mise en ligne.
                     </div>
 
                     <div className={styles.spaceBetween}>
                         <div className={styles.item + ' ' + styles.el}>
                             <div className={styles.spaceBetween}>
                                 <div className={styles.item + ' ' + styles.names}>
-                                    PHP7<br />
+                                    NodeJS<br />
+                                    express<br />
                                     MySQL<br />
-                                    CRON<br />
-                                    cURL
+                                    MongoDB
                                 </div>
                                 <div className={styles.item + ' ' + styles.stars}>
                                     <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><br />
-                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star-half-alt"></i><br />
-                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="far fa-star"></i><br />
-                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="far fa-star"></i><i className="far fa-star"></i>
+                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><br />
+                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><br />
+                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i>
                                 </div>
                             </div>
                         </div>
@@ -59,10 +60,10 @@ export default class CompetencesBack extends Component {
                                     API REST
                                 </div>
                                 <div className={styles.item + ' ' + styles.stars}>
-                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="far fa-star"></i><i className="far fa-star"></i><br />
-                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="far fa-star"></i><i className="far fa-star"></i><br />
-                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="far fa-star"></i><br />
-                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="far fa-star"></i>
+                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><br />
+                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><br />
+                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><br />
+                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i>
                                 </div>
                             </div>
                         </div>
