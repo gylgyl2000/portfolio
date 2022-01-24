@@ -1,3 +1,49 @@
+.welcomeHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    display: block;
+    width: 3rem;
+    border-radius: 200px;
+    margin-right: 3rem;
+}
+
+.alias, .subalias {
+    line-height: 1;
+    font-family: roboto;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.alias::before {
+    content: "# ";
+}
+
+.subalias::before {
+    content: ">ø ";
+}
+
+.subalias::after {
+    content: " ø<";
+}
+
+.alias::before, .subalias::before, .subalias::after {
+    color: rgb(68, 136, 60);
+    font-size: 1.7em;
+    vertical-align: sub;
+}
+
+.icone {
+    display: block;
+    width: 5rem;
+    margin-left: 3rem;
+}
+
+
+
 .container {
     animation: colorChange 3s infinite;
     flex-wrap: nowrap;

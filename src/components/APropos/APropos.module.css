@@ -35,7 +35,7 @@
 
 
 #navbar {
-    background-color: #44883C !important;
+    background-color: #206418 !important;
 }
 
 .apropos {
@@ -74,7 +74,7 @@
     position: relative;
     overflow: hidden;
     width: 300px;
-    height: 300px;
+    height: 400px;
 }
 
 .imgContainer img {
