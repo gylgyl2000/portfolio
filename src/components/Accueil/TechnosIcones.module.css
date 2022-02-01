@@ -1,0 +1,85 @@
+
+.technosIcones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.item {
+    color: #FFF;
+    font-size: 1.1rem;
+    display: inline-block;
+    text-align: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.technosImg {
+    height: 6vh;
+}
+
+.technosIcones div {
+    animation: right-t-left 1s;
+    transform: translate(3000%,0%);
+    animation-fill-mode: forwards;
+    will-change: transform;
+    font-weight: 400;
+    margin: 5px 1px;
+    border: none;
+}
+
+@keyframes right-t-left {
+    0% {
+     transform:translate(2000%,0%)
+    }
+    100% {
+     transform:translate(0%,0%)
+    }
+}
+
+.technosIcones div:nth-child(1) {
+    animation-delay:1.6s
+}
+
+.technosIcones div:nth-child(2) {
+    animation-delay:1.8s
+}
+
+.technosIcones div:nth-child(3) {
+    animation-delay:2s
+}
+
+.technosIcones div:nth-child(4) {
+    animation-delay:2.2s
+}
+
+.technosIcones div:nth-child(5) {
+    animation-delay:2.4s
+}
+
+.technosIcones div:nth-child(6) {
+    animation-delay:2.6s
+}
+
+.technosIcones div:nth-child(7) {
+    animation-delay:2.8s
+}
+
+.technosIcones div:nth-child(8) {
+    animation-delay:3.0s
+}
+
+.technosIcones div:nth-child(9) {
+    animation-delay:3.2s
+}
+
+.technosIcones div:nth-child(10) {
+    animation-delay:3.4s
+}
+
+.technosIcones div:nth-child(11) {
+    animation-delay:3.6s
+}
+
+.technosIcones div:nth-child(12) {
+    animation-delay:3.8s
+}

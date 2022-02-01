@@ -25,7 +25,7 @@ export default class CompetencesEnv extends Component {
                     
                     <div className={styles.item + ' ' + styles.desc + ' ' + styles.end}>
                         <i className="fas fa-desktop"></i> <b>Systèmes d'exploitation :</b> Linux, Windows 10<br />
-                        <i className="fas fa-terminal"></i> <b>Workflow :</b> Git, Firefox, FileZilla, Postman, Slack, CLI, NPM<br />
+                        <i className="fas fa-terminal"></i> <b>Workflow :</b> Trello, Git, Firefox, FileZilla, Postman, Slack, CLI, NPM<br />
                         <i className="fas fa-code"></i> <b>IDE :</b> Visual Studio Code, VSCodium<br />
                         <i className="fas fa-pen-alt"></i> <b>Autres compétences :</b> français, langue maternelle - anglais lu/écrit<br />
                         <i className="fas fa-user-tie"></i> <b>Savoir-être :</b> capacité d'adaptation, travail en équipe, organisation, rigueur, force de proposition

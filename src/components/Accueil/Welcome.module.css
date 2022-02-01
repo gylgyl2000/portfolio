@@ -35,7 +35,7 @@
 
 .pageHeaderImage {
     position: absolute;
-    background-image: url(../../assets/fond.JPEG);
+    background-image: url(../../../public/fond.JPEG);
     background-size: cover;
     background-position: center center;
     width: 100%;

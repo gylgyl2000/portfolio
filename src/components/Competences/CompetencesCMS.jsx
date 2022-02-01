@@ -24,29 +24,25 @@ export default class CompetencesCMS extends Component {
                     <h4 className={styles.cms}>CMS</h4>
                     
                     <div className={styles.item + ' ' + styles.desc}>
-                        Création et édition de thèmes et plugins. Mon expérience est principalement portée sur WordPress. J'ai l'habitude de travailler avec les plugins WooCommerce, ACF et Yoast SEO.
+                        Création et édition de thèmes et plugins. Mon expérience est principalement portée sur WordPress.
                     </div>
 
                     <div className={styles.spaceBetween}>
                         <div className={styles.item + ' ' + styles.el}>
                             <div className={styles.spaceBetween}>
                                 <div className={styles.item + ' ' + styles.names}>
-                                    WordPress<br />
-                                    Magento
+                                    WordPress
                                 </div>
                                 <div className={styles.item + ' ' + styles.stars}>
-                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><br />
-                                    <i className="fas fa-star"></i><i className="fas fa-star-half-alt"></i><i className="far fa-star"></i><i className="far fa-star"></i>
+                                    <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i>
                                 </div>
                             </div>
                         </div>
                         <div className={styles.item + ' ' + styles.el}>
                             <div className={styles.spaceBetween}>
                                 <div className={styles.item + ' ' + styles.names}>
-                                    PrestaShop
                                 </div>
                                 <div className={styles.item + ' ' + styles.stars}>
-                                    <i className="fas fa-star"></i><i className="far fa-star"></i><i className="far fa-star"></i><i className="far fa-star"></i>
                                 </div>
                             </div>
                         </div>

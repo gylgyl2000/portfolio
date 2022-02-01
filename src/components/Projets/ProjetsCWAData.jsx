@@ -5,8 +5,9 @@ const ProjetsCWAData = [
         description: "Projet de conception Web adaptative - Créer une page Web de portfolio personnel. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
         image: "images/personal-portfolio.png",
         tags: ["html", "css"],
-        demo: "https://codepen.io/gylgyl2000/full/MWerxBo",
-        github: ""
+        demo: "/projets/build-a-personal-portfolio-webpage",
+        github:"",
+        codepen: "https://codepen.io/gylgyl2000/full/MWerxBo"
     },
     {
         id: 4,
@@ -14,8 +15,9 @@ const ProjetsCWAData = [
         description: "Projet de conception Web adaptative - Créer une page de documentation technique. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
         image: "images/technical-documentation-page.png",
         tags: ["html", "css"],
-        demo: "https://codepen.io/gylgyl2000/full/VwjLoEG",
-        github: ""
+        demo: "/projets/build-a-technical-documentation-page",
+        github: "",
+        codepen: "https://codepen.io/gylgyl2000/full/VwjLoEG"
     },
     {
         id: 3,
@@ -23,8 +25,9 @@ const ProjetsCWAData = [
         description: "Projet de conception Web adaptative - Créer une page de destination de produit. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
         image: "images/product-landing-page.png",
         tags: ["html", "css"],
-        demo: "https://codepen.io/gylgyl2000/full/MWeWMqa",
-        github: ""
+        demo: "/projets/build-a-product-landing-page",
+        github: "",
+        codepen: "https://codepen.io/gylgyl2000/full/MWeWMqa"
     },
     {
         id: 2,
@@ -32,8 +35,9 @@ const ProjetsCWAData = [
         description: "Projet de conception Web adaptative - Créer un formulaire d'enquête. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
         image: "images/survey-form.png",
         tags: ["html", "css"],
-        demo : "https://codepen.io/gylgyl2000/full/ZEWgoyj",
-        github :""
+        demo : "/projets/build-a-survey-form",
+        github :"",
+        codepen: "https://codepen.io/gylgyl2000/full/ZEWgoyj"
     },
     {
         id: 1,
@@ -41,8 +45,9 @@ const ProjetsCWAData = [
         description: "Projet de conception Web adaptative - Créer une page d'hommage. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
         image: "images/tribute-page.png",
         tags: ["html", "css"],
-        demo: "https://codepen.io/gylgyl2000/full/eYZwBqW",
-        github: ""
+        demo: "/projets/build-a-tribute-page",
+        github: "",
+        codepen: "https://codepen.io/gylgyl2000/full/eYZwBqW"
     },
     {
         id: 6,
@@ -50,8 +55,9 @@ const ProjetsCWAData = [
         description: "Mission candidat. Projet réalisé en pré-requis d'entrée en formation à la Wild Code School de Biarritz.",
         image: "images/wild-circus.png",
         tags: ["html", "css"],
-        demo: "https://codepen.io/gylgyl2000/full/NWPPRjb",
-        github: ""
+        demo: "/projets/wild-circus",
+        github: "",
+        codepen: "https://codepen.io/gylgyl2000/full/NWPPRjb"
     },
 ]
 export default ProjetsCWAData;

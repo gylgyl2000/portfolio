@@ -1,6 +1,8 @@
-import React from "react";
+// import React, { useState } from "react";
 import { motion } from 'framer-motion';
-import { NavLink } from 'react-router-dom';
+
+import { Link } from "react-router-dom";
+
 import styles from './Projets.module.css';
 
 // Framer motion configuration
@@ -19,7 +21,16 @@ const Item = {
 
 const ProjetsCard = (props) => {
 
-    const {id, name, description, image, tags, demo, github} = props.data;
+    const {id, name, description, image, tags, demo} = props.data;
+/*     const [iconVisible, setIconVisible] = useState(false)
+    
+        if (github !== '') {
+            setIconVisible(true)
+        } else {
+            setIconVisible(false)
+        } */
+    
+
     return (
         <motion.li key={id} variants={Item}>
             <h2>{name}</h2>
@@ -33,12 +44,9 @@ const ProjetsCard = (props) => {
                 }
             </div>
             <div className={styles.footer}>
-                <a className={styles.link} href={demo} target="_blank" rel="noreferrer">
+                <Link className={styles.link} to={demo}>
                     Visiter
-                </a>
-                <NavLink className={styles.git} to={{pathname: `${github}`}} target="_blank">
-                    <i className='fab fa-github'></i>
-                </NavLink>
+                </Link>
             </div>
         </motion.li>
     )
