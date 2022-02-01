@@ -246,7 +246,9 @@ h4 {
     font-weight: lighter;
     color: #2c2c2c;
 }
-
+.BuildATributePage iframe,
+.BuildASurveyForm iframe,
+.BuildAProductLandingPage iframe,
 .BuildATechnicalDocumentationPage iframe,
 .BuildAPersonalPortfolioWebpage iframe,
 .WildCircus iframe {

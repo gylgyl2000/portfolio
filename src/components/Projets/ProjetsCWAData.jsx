@@ -48,6 +48,7 @@ const ProjetsCWAData = [
         demo: "/projets/build-a-tribute-page",
         github: "",
         codepen: "https://codepen.io/gylgyl2000/full/eYZwBqW"
+        
     },
     {
         id: 6,
