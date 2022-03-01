@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10vh;
+    background-color: whitesmoke;
+    width: 200%;
+    margin-left: -50%;
+    padding: 0 50%;
 }
 
 .item {

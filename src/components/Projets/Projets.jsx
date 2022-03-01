@@ -11,6 +11,7 @@ import ProjetsCWA from "./ProjetsCWA";
 import ProjetsBFE from "./ProjetsBFE";
 import ProjetsVDD from "./ProjetsVDD";
 import ProjetsDBE from "./ProjetsDBE";
+import ProjetsDW from "./ProjetsDW";
 
 export default class Projets extends Component {
     render() {
@@ -34,6 +35,9 @@ export default class Projets extends Component {
                         </Tab>
                         <Tab eventKey="DBE" title="Développement back-end et API">
                             <ProjetsDBE />
+                        </Tab>
+                        <Tab eventKey="DW" title="Développement Web">
+                            <ProjetsDW />
                         </Tab>
                     </Tabs>
                 </div>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import Navbar from "../Navbar/Navbar";
@@ -31,11 +32,12 @@ export default class APropos extends Component {
                             arts créatifs, web-design
                         </p>
                         <div className={styles.buttonsContainer}>
-                            <a href="Gilles-Chassignet_CV.pdf"  onclick="window.open(this.href)">
+                            <a href="Gilles-Chassignet_CV.pdf"  target="_blank">
                                 <button className={styles.cv} type="submit">Télécharger mon CV</button>
                             </a>
-                            <a href="contact">
-                                <button className={styles.cont}>Me contacter</button></a>
+                            <Link to="/contact">
+                                <button className={styles.cont}>Me contacter</button>
+                            </Link>
                         </div>
                     </div>
                     

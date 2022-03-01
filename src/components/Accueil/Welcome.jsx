@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NavSidebar from "../NavSidebar/NavSidebar";
 import CompetencesIcones from './CompetencesIcones';
 import TechnosIcones from "./TechnosIcones";
 
@@ -10,6 +11,7 @@ export default class Welcome extends Component {
             <div id="welcome-section" className={styles.pageHeader} filter-color="green">
                 <div className={styles.pageHeaderImage} data-parallax="true"></div>
                 <div className={styles.container}>
+                        <NavSidebar />
                     <div className={styles.welcomeSection}>
                         <img className={styles.icone} src="./bitmoji.png" alt="" />
                         <p className={styles.suptitleHey}>Salut ! 👋</p>

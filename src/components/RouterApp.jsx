@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 import Accueil from './Accueil/Accueil';
@@ -29,8 +29,14 @@ import RequestHeaderParserMicroservice from './Projets/MesProjets/RequestHeaderP
 import URLShortenerMicroservice from './Projets/MesProjets/URLShortenerMicroservice/URLShortenerMicroservice';
 import ExerciseTracker from './Projets/MesProjets/ExerciseTracker/ExerciseTracker';
 import FileMetadataMicroservice from './Projets/MesProjets/FileMetadataMicroservice/FileMetadataMicroservice';
+import TransformerUneMaquetteEnSite from './Projets/MesProjets/TransformerUneMaquetteEnSite/TransformerUneMaquetteEnSite';
+import DynamiserUnePageWebAvecDesAnimationsCSS from './Projets/MesProjets/DynamiserUnePageWebAvecDesAnimationsCSS/DynamiserUnePageWebAvecDesAnimationsCSS';
+import OptimiserUnSiteWebExistant from './Projets/MesProjets/OptimiserUnSiteWebExistant/OptimiserUnSiteWebExistant';
+import ConstruireUnSiteECommerceEnJavaScript from './Projets/MesProjets/ConstruireUnSiteECommerceEnJavaScript/ConstruireUnSiteECommerceEnJavaScript';
+import ConstruireUneAPISecuriseePourUneApplicationDAvisGastronomiques from './Projets/MesProjets/ConstruireUneAPISecuriseePourUneApplicationDAvisGastronomiques/ConstruireUneAPISecuriseePourUneApplicationDAvisGastronomiques';
 
 export default function RouterApp() {
+  
     return (
       <AnimatePresence exitBeforeEnter>
         <BrowserRouter>
@@ -62,8 +68,13 @@ export default function RouterApp() {
             <Route path="/projets/url-shortener-microservice" element={<URLShortenerMicroservice />} />
             <Route path="/projets/exercise-tracker" element={<ExerciseTracker />} />
             <Route path="/projets/file-metadata-microservice" element={<FileMetadataMicroservice />} />
+            <Route path="/projets/transformer-une-maquette-en-site" element={<TransformerUneMaquetteEnSite />} />
+            <Route path="/projets/dynamiser-une-page-web-avec-des-animations-CSS" element={<DynamiserUnePageWebAvecDesAnimationsCSS />} />
+            <Route path="/projets/optimisez-un-site-web-existant" element={<OptimiserUnSiteWebExistant />} />
+            <Route path="/projets/construire-un-site-e-commerce-en-javaScript" element={<ConstruireUnSiteECommerceEnJavaScript />} />
+            <Route path="/projets/construire-une-API-securisee-pour-une-application-d-avis-gastronomiques" element={<ConstruireUneAPISecuriseePourUneApplicationDAvisGastronomiques />} />
           </Routes>
-        </BrowserRouter>
+          </BrowserRouter>
       </AnimatePresence>
     );
   }

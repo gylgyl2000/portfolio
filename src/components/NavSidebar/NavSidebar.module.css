@@ -1,0 +1,69 @@
+.navSidebar {
+    animation: colorChange 3s infinite;
+    float: right;
+    height: 100%;
+    top: 37%;
+    position: relative;
+}
+
+@keyframes colorChange {
+    0% {
+        fill:#3cdc69;
+    }
+    50% {
+        fill:#fff;
+    }
+    100% {
+        fill:#35bf5c;
+    }
+}
+
+.navSidebar .navbar {
+    }
+
+.faSolid {
+    margin-top: 19px;
+    font-family: "Font Awesome 5 Free";
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 4em;
+    margin-bottom: .25em;
+}
+
+.navList {
+    flex-direction: row;
+    margin-left: auto !important;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+}
+
+.navList li {
+    letter-spacing: 1px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.navList a {
+    display: block;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    font-family: roboto, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: .96em !important;
+    text-transform: capitalize !important;
+    transition: all 300ms ease 0s;
+}
+
+.navList a:hover {
+    background-color: rgba(13,95,79,.8) !important;
+    border-radius: 0.1875rem;
+}
