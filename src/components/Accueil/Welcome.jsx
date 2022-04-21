@@ -16,7 +16,7 @@ export default class Welcome extends Component {
                         <img className={styles.icone} src="./bitmoji.png" alt="" />
                         <p className={styles.suptitleHey}>Salut ! 👋</p>
                         <p className={styles.suptitle}>Je m'appelle <span>Gilles</span> et je suis</p>
-                        <h1 className={styles.title}>Développeur web full-stack</h1>
+                        <h1 className={styles.title}>Développeur web</h1>
                         <CompetencesIcones />
                         <TechnosIcones />
                     </div>

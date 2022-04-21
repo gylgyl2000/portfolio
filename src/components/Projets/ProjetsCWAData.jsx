@@ -2,7 +2,7 @@ const ProjetsCWAData = [
     {
         id: 5,
         name: "Portfolio personnel",
-        description: "Projet de conception Web adaptative - Créer une page Web de portfolio personnel. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
+        description: "Page Web de portfolio personnel.",
         image: "images/personal-portfolio.png",
         tags: ["html", "css"],
         demo: "/projets/build-a-personal-portfolio-webpage",
@@ -12,7 +12,7 @@ const ProjetsCWAData = [
     {
         id: 4,
         name: "Documentation technique",
-        description: "Projet de conception Web adaptative - Créer une page de documentation technique. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
+        description: "Documentation sur CSS Grid.",
         image: "images/technical-documentation-page.png",
         tags: ["html", "css"],
         demo: "/projets/build-a-technical-documentation-page",
@@ -22,7 +22,7 @@ const ProjetsCWAData = [
     {
         id: 3,
         name: "Destination de produit",
-        description: "Projet de conception Web adaptative - Créer une page de destination de produit. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
+        description: "Page produit : Couches pour bébé lavables et réutilisables.",
         image: "images/product-landing-page.png",
         tags: ["html", "css"],
         demo: "/projets/build-a-product-landing-page",
@@ -31,8 +31,8 @@ const ProjetsCWAData = [
     },
     {
         id: 2,
-        name: "Formulaire d'enquête sur le langage de programmation",
-        description: "Projet de conception Web adaptative - Créer un formulaire d'enquête. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
+        name: "Formulaire d'enquête",
+        description: "Enquête sur le langage de programmation.",
         image: "images/survey-form.png",
         tags: ["html", "css"],
         demo : "/projets/build-a-survey-form",
@@ -41,8 +41,8 @@ const ProjetsCWAData = [
     },
     {
         id: 1,
-        name: "Hommage à Stephen Hawking",
-        description: "Projet de conception Web adaptative - Créer une page d'hommage. Mise en application des compétences, principes et concepts appris en HTML, CSS conception visuelle, accessibilité. Projet réalisé avec freeCodeCamp.",
+        name: "Page hommage",
+        description: "Hommage à Stephen Hawking.",
         image: "images/tribute-page.png",
         tags: ["html", "css"],
         demo: "/projets/build-a-tribute-page",
@@ -53,7 +53,7 @@ const ProjetsCWAData = [
     {
         id: 6,
         name: "Wild Circus",
-        description: "Mission candidat. Projet réalisé en pré-requis d'entrée en formation à la Wild Code School de Biarritz.",
+        description: "Présentation du WIld Circus.",
         image: "images/wild-circus.png",
         tags: ["html", "css"],
         demo: "/projets/wild-circus",

@@ -2,7 +2,7 @@ const ProjetsData = [
     {
         id: 17,
         name: "Microservice d'horodatage",
-        description: "Projets API et microservices - Créez une application JavaScript full stack de microservice d'horodatage. Mise en application des compétences, principes et concepts appris avec des API. Projet réalisé avec freeCodeCamp.",
+        description: "API d'horodatage avec npm, Node et Express.",
         image: "images/microservice-api-d-horodatage.png",
         tags: ["js", "npm", "node", "express", "mongodb", "mongoose"],
         demo: "/projets/timestamp-microservice",
@@ -13,7 +13,7 @@ const ProjetsData = [
     {
         id: 18,
         name: "Microservice d'analyseur d'en-tête de requête",
-        description: "Projets API et microservices - Créez une application JavaScript full stack de microservice d'analyseur d'en-tête de requête. Mise en application des compétences, principes et concepts appris avec des API. Projet réalisé avec freeCodeCamp.",
+        description: "API d'analyseur d'en-tête de requête avec npm, Node et Express.",
         image: "images/microservice-api-d-analyseur-d-en-tete-de-requete.png",
         tags: ["js", "npm", "node", "express", "mongodb", "mongoose"],
         demo: "/projets/request-header-parser-microservice",
@@ -24,7 +24,7 @@ const ProjetsData = [
     {
         id: 19,
         name: "Microservice de réducteur d'URL",
-        description: "Projets API et microservices - Créez une application JavaScript full stack de microservice de réducteur d'URL. Mise en application des compétences, principes et concepts appris avec des API. Projet réalisé avec freeCodeCamp.",
+        description: "API de réducteur d'URL avec npm, Node et Express.",
         image: "images/microservice-api-reducteur-d-url.png",
         tags: ["js", "npm", "node", "express", "mongodb", "mongoose"],
         demo: "/projets/url-shortener-microservice",
@@ -35,7 +35,7 @@ const ProjetsData = [
     {
         id: 20,
         name: "Suivi d'exercices",
-        description: "Projets API et microservices - Créez une application JavaScript full stack de suivi d'exercices. Mise en application des compétences, principes et concepts appris avec des API. Projet réalisé avec freeCodeCamp.",
+        description: "API de suivi d'exercices avec npm, Node et Express.",
         image: "images/microservice-api-suivi-d-exercices.png",
         tags: ["js", "npm", "node", "express", "mongodb", "mongoose"],
         demo: "/projets/exercise-tracker",
@@ -46,7 +46,7 @@ const ProjetsData = [
     {
         id: 21,
         name: "Microservice de métadonnées de fichiers",
-        description: "Projets API et microservices - Créez une application JavaScript full stack de microservice de métadonnées de fichiers. Mise en application des compétences, principes et concepts appris avec des API. Projet réalisé avec freeCodeCamp.",
+        description: "API de métadonnées de fichiers avec npm, Node et Express.",
         image: "images/microservice-api-de-metadonees-de-fichiers.png",
         tags: ["js", "npm", "node", "express", "mongodb", "mongoose"],
         demo: "/projets/file-metadata-microservice",

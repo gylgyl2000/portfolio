@@ -31,7 +31,9 @@ export default class CompetencesCMS extends Component {
                         <div className={styles.item + ' ' + styles.el}>
                             <div className={styles.spaceBetween}>
                                 <div className={styles.item + ' ' + styles.names}>
-                                    WordPress
+                                    WordPress<br />
+                                    ACF<br />
+                                    FlipBook
                                 </div>
                                 <div className={styles.item + ' ' + styles.stars}>
                                     <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i>

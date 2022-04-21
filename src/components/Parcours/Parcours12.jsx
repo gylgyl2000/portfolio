@@ -20,7 +20,7 @@ export default class Parcours12 extends Component {
                         <div class={styles.date}>depuis 2020</div>
                         <div class={styles.place}></div>
                         <ul>
-                            <li>Projets avec freeCodeCamp, IOI France, codecademy,
+                            <li>freeCodeCamp, IOI France, codecademy,
                                 codewars, exercism, udemy</li>
                         </ul>
                     </div>
