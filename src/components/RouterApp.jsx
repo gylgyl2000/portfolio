@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 import Accueil from './Accueil/Accueil';
@@ -39,9 +39,10 @@ export default function RouterApp() {
   
     return (
       <AnimatePresence exitBeforeEnter>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route exact path="/" element={<Accueil />} />
+            <Route index element={<Accueil />} />
             <Route path="apropos" element={<APropos />} />
             <Route path="competences" element={<Competences />} />
             <Route path="parcours" element={<Parcours />} />
@@ -74,7 +75,7 @@ export default function RouterApp() {
             <Route path="/projets/construire-un-site-e-commerce-en-javaScript" element={<ConstruireUnSiteECommerceEnJavaScript />} />
             <Route path="/projets/construire-une-API-securisee-pour-une-application-d-avis-gastronomiques" element={<ConstruireUneAPISecuriseePourUneApplicationDAvisGastronomiques />} />
           </Routes>
-          </BrowserRouter>
+        </HashRouter>
       </AnimatePresence>
     );
   }
