@@ -42,11 +42,11 @@ export default function RouterApp() {
         <BrowserRouter>
           <Routes>
             <Route exact path="/" element={<Accueil />} />
-            <Route path="/apropos" element={<APropos />} />
-            <Route path="/competences" element={<Competences />} />
-            <Route path="/parcours" element={<Parcours />} />
-            <Route path="/projets" element={<Projets />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="apropos" element={<APropos />} />
+            <Route path="competences" element={<Competences />} />
+            <Route path="parcours" element={<Parcours />} />
+            <Route path="projets" element={<Projets />} />
+            <Route path="contact" element={<Contact />} />
             <Route path="/projets/wild-circus" element={<WildCircus />} />
             <Route path="/projets/build-a-tribute-page" element={<BuildATributePage />} />
             <Route path="/projets/build-a-survey-form" element={<BuildASurveyForm />} />
